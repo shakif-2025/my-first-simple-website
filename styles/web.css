@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#nav_bar {
+  margin: 15px 35px;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  color: #fff;
+  margin-left: 20px;
+  padding: 10px 25px;
+  border: 2px solid rgb(0, 255, 64);
+}
+
+ul {
+  padding: 10px 25px;
+  border: 2px solid rgb(0, 26, 255);
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+ul li {
+  color: #fff;
+  font-size: 22px;
+  margin-right: 20px;
+}
